@@ -11,7 +11,7 @@ String dataPoints = null;
  
 
 	Class.forName("com.mysql.jdbc.Driver"); 
-	Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/jdbc", "root", "");
+	Connection connection = DriverManager.getConnection("jdbc:mysql://i9vk72wn5y7besk1:rbav8kht9fhk37o5@ble5mmo2o5v9oouq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lvyie34bxg2l9rjs", "i9vk72wn5y7besk1", "rbav8kht9fhk37o5");
 	Statement statement = connection.createStatement();
 	String xVal, yVal;
 	
