@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Connexion {
 
-    private static String login = "root";
-    private static String password = "";
-    private static String url = "jdbc:mysql://localhost:3306/jdbc?useLegacyDatetimeCode=false&serverTimezone=Europe/Paris";
+    private static String login = "i9vk72wn5y7besk1";
+    private static String password = "rbav8kht9fhk37o5";
+    private static String url = "jdbc:mysql://i9vk72wn5y7besk1:rbav8kht9fhk37o5@ble5mmo2o5v9oouq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lvyie34bxg2l9rjs";
     private Connection connection = null;
     private static Connexion instane;
 
